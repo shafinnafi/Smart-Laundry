@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main-header {
+    border: 2px black solid;
+    padding: 25px;
+    background-color: #333;
+}
+
+
+/* .login-signup-btn button {
+    margin: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5%;
+    background-color: rgb(201, 201, 201);
+    border: 1px solid black;
+}
+
+.login-signup-btn button:hover {
+    background-color: #333;
+    border: 1px solid white;
+    color: rgba(255, 255, 255, 0.856);
+    cursor: pointer;
+    transition: .5s;
+} */
+
+#main-header h2 {
+    font-size: 1.5vw;
+}
+
+#htext {
+    display: inline;
+    letter-spacing: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+}
+
+h1 {
+    font-size: 36px;
+    color: #555;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+#team img {
+    margin-top: -50px;
+}
+
+#team p {
+    font-weight: 1000;
+}
+
+#team .card {
+    border-radius: 0;
+    box-shadow: 5px 5px 15px skyblue;
+    transition: all 0.3s ease-in;
+    -mox-trasition: all 0.3s ease-in;
+}
+
+#team .card:hover {
+    background: skyblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+    margin-bottom: 100px;
+}
+
+#team .card:hover h3 {
+    color: white;
+}
+
+#button a {
+    color: white;
+    background-color: #7aa93c;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#button a:hover {
+    background-color: #ccffff;
+    color: black;
+    text-decoration: none;
+    transition: 0.75s;
+}

@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background: url('1.jpg') no-repeat top center/cover; */
+    background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* .bgcolor {
+	width: 1366px;
+	height: 680px;
+	background-color: rgb(0,0,0,0.8);
+	background-attachment: fixed;
+} */
+
+header {
+    background-color: #333333;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: whitesmoke;
+}
+
+.bar {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid skyblue;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transition: .5s;
+}
+
+.input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.text {
+    width: 350px;
+    height: 50px;
+    border: 2px solid skyblue;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: skyblue;
+    transition: .5s;
+}
+
+.password {
+    width: 350px;
+    height: 50px;
+    border: 2px solid skyblue;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: skyblue;
+    transition: .5s;
+}
+
+.submit {
+    width: 350px;
+    height: 50px;
+    border: 2px solid white;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: skyblue;
+    color: white;
+    font-size: 30px;
+    transition: .5s;
+}
+
+.bar:hover {
+    border: 2px solid white;
+    background-color: rgba(0, 225, 255, 0.2);
+}
+
+.text:hover {
+    border: 2px solid white;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: skyblue;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+input[type=password]:focus {
+    outline: none;
+}
+
+.submit:focus {
+    outline: none;
+}
+
+#category:focus {
+    outline: none;
+}
+
+.text:focus {
+    background-color: skyblue;
+    color: white;
+    border: 2px solid white;
+}
+
+.password:hover {
+    border: 2px solid white;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: skyblue;
+}
+
+.password:focus {
+    color: white;
+    background-color: skyblue;
+    border: 2px solid white;
+}
+
+.submit:hover {
+    border: 2px solid skyblue;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: skyblue;
+    background-color: white;
+}
+
+#category {
+    width: 350px;
+    height: 50px;
+    border: 2px solid skyblue;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: skyblue;
+    transition: .5s;
+    padding-left: 128px;
+}
+
+#category:hover {
+    border: 2px solid white;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: skyblue;
+}
